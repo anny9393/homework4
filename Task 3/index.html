@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Project JS 2</title>
+</head>
+<body>
+    <div class='header'>
+        <div class="cart">
+        <button  class="button-shoppingcart" type="button">Shopping Cart</button>
+        <div class="cart-block overflow">
+        </div>
+    </div></div>
+    <main>
+        <div class="products">
+        </div>
+        <section class="contacts">
+            <span class="contacts-header">Contacts</span>
+            <div class="contact-form">
+                <form action="#" onsubmit="checkForm()">
+                <input class="input-text name" type="text" placeholder="Your name:" required><br>
+                <h6 class="error-message-name"></h6>
+                <input class="input-text phone" type="phone" placeholder="Your mobile phone number: +7" required><br>
+                <h6 class="error-message-phone"></h6>
+                <input class="input-text email" type="email" placeholder="Your email:" required><br>
+                <h6 class="error-message-email"></h6>
+                <textarea name="Your message:" id="" cols="30" rows="10" class="text-area">Your message:</textarea><br>
+                <input type="submit" class="button contact-btn" value="Submit">
+                </form></div>
+        </section>
+    </main>
+    <script src="js.js"></script>
+    <script src="contacts.js"></script>
+</body>
+</html>
